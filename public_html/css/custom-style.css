@@ -22,3 +22,11 @@ img {
     width: 700px;
     height: auto;
 }
+body {
+    background-image: url("http://farm3.staticflickr.com/2875/12110912094_29366a0c75.jpg");
+}
+
+a {
+    color: black;
+    width: 300px;
+}

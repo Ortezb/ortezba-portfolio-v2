@@ -1,32 +1,50 @@
-div {
+/*The div,container,and row colors don't need to be showed.*/
+ /*div {
     border-style: solid;
     border-width: 5px;
     border-color: green;
     padding: 30px;
 }
+*/
 
+/*
 .container {
     border-color: blue;
 }
+*/
 
+/*
 .row {
     border-color: red;
 }
+*/
 
 .list-group-item {
     border: 0;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+/*The images' width and height.*/
 img {
     width: 700px;
     height: auto;
 }
+
+/*The body,#index2,and #index3 are the same color background.*/
 body {
-    background-image: url("http://farm3.staticflickr.com/2875/12110912094_29366a0c75.jpg");
+    background-color: red;
 }
 
 a {
-    color: black;
-    width: 300px;
+    color: white;
+    width: auto;
+}
+
+#index2 {
+    background-color: red;
+}
+
+#index3 {
+    background-color: red;
 }

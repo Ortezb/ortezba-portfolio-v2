@@ -33,7 +33,7 @@ img {
 
 /*The body,#index2,and #index3 are the same color background.*/
 body {
-    background-image: url("http://www.whydidyouwearthat.com/wp-content/uploads//2014/01/shades-of-garnet-red-maroon.jpg");
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Color_icon_red.svg/1024px-Color_icon_red.svg.png");
 }
 
 a {
@@ -42,7 +42,7 @@ a {
 }
 
 #index2 {
-    background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Color_icon_red.svg/1024px-Color_icon_red.svg.png");
+    background-image: url("http://www.whydidyouwearthat.com/wp-content/uploads//2014/01/shades-of-garnet-red-maroon.jpg");                     
 }
 
 #index3 {

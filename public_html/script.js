@@ -5,75 +5,75 @@
  */
 
 
-$('document').ready(function(){
+$('document').ready(function() {
     $('.yeah').css('background-color', 'red');
-    
+
     $('#superHumans').accordion({header: "h3"});
-    
+
     $('#superHumans').css('width', '400px');
-    
+
     $('h3').css('background', 'red');
-    
+
     $('div:last p:nth-child(3)').css('background-color', 'red');
-    
+
     $('p:last').css('color', 'black');
-       
+
     $('p:gt(1)').css('border-style', 'solid');
-   
-    $('p:first').css({'background-color':'red', 'color':'black'});
-    
+
+    $('p:first').css({'background-color': 'red', 'color': 'black'});
+
     $('.2').css({'visibility': 'hidden', 'position': 'absolute'});
-    
+
     $("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-    
+
     $('h1').bind('click', mouseClick);
-   
+
     $('#replaceWText').css('color', 'black');
-    
+
     $('#replaceWText').bind('click', replaceWText);
-   
+
     $('#randPara').bind('click', addAPara);
-       
+
     $('#removePara').bind('click', removeAPara);
 
-     $('#show').css('visibility', 'hidden');
-      
-     $('#hide').bind('click', hideThePage);
-     
-     $('#show').bind('click', showThePage);
+    $('#show').css('visibility', 'hidden');
+
+    $('#hide').bind('click', hideThePage);
+
+    $('#show').bind('click', showThePage);
 });
 
-function hideThePage(){
+function hideThePage() {
     $('#show').css('visibility', 'visible');
     $('div').hide('slide', {}, 2500);
     $('#show').show('fold', {}, 2500);
 }
 
-function showThePage(){
+function showThePage() {
     $('div').show('fold', {}, 2500);
     $('#show').hide('puff', {}, 2500);
 }
 
-function removeAPara(){
+function removeAPara() {
     $('#randPara p:last').remove();
 }
 
-function addAPara(){
+function addAPara() {
     $('#randPara').append('<p>This is my website.</p>');
 }
 
-function replaceWText(){
+function replaceWText() {
     $('#replaceWText').text('My name is Brandon.');
 }
 
-function mouseOverMe(){
-    $("h1").html("About");
+function mouseOverMe() {
+    $("h1").html("Jquery");
 }
 
-function mouseOutMe(){
-    $('h1').html('Me');
+function mouseOutMe() {
+    $('h1').html('Page');
 }
 
-function mouseClick(){    
+function mouseClick() {
     $('p').html('My name is Brandon and this is my website.');
 }

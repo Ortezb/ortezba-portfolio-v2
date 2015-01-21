@@ -43,6 +43,7 @@ $('document').ready(function() {
     $('#show').bind('click', showThePage);
 });
 
+/*Functions*/
 function hideThePage() {
     $('#show').css('visibility', 'visible');
     $('div').hide('slide', {}, 2500);
@@ -59,7 +60,7 @@ function removeAPara() {
 }
 
 function addAPara() {
-    $('#randPara').append('<p>This is my website.</p>');
+    $('#randPara').append('<p>This is my jquery page.</p>');
 }
 
 function replaceWText() {
@@ -75,5 +76,5 @@ function mouseOutMe() {
 }
 
 function mouseClick() {
-    $('p').html('My name is Brandon and this is my website.');
+    $('p').html('My name is Brandon and this is my jquery page.');
 }

@@ -43,7 +43,7 @@ $('document').ready(function() {
     $('#show').bind('click', showThePage);
 });
 
-/*Functions*/
+//Functions
 function hideThePage() {
     $('#show').css('visibility', 'visible');
     $('div').hide('slide', {}, 2500);
